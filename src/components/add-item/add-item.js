@@ -6,7 +6,7 @@ class AddItem extends Component {
     super(props)
     this.state = {
       item: 'Mediocre Iron Watch',
-      quantity: 0,
+      quantity: 1,
       product: [
         { id: 40, name: 'Mediocre Iron Watch', priceInCents: 399 },
         { id: 41, name: 'Heavy Duty Concrete Plate', priceInCents: 499 },
@@ -34,7 +34,7 @@ class AddItem extends Component {
     }
     // console.log(myEle);
     
-    const { item, quantity } = this.state
+    const { quantity } = this.state
     const { onAddItem } = this.props
     onAddItem({ myEle, quantity })
   }

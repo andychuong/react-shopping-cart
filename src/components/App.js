@@ -50,7 +50,7 @@ class App extends Component {
       <div className="App">
       
         <nav className="navbar navbar-dark bg-primary">
-          <a className="navbar-brand" href="#">Shopping Cart</a>
+          <a className="navbar-brand" href="./index.html">Shopping Cart</a>
         </nav>
 
         <div className="container">
@@ -71,7 +71,7 @@ class App extends Component {
         </div>
 
         <nav className="navbar navbar-dark bg-dark">
-          <a className="navbar-brand" href="#">&copy; 2018</a>
+          <a className="navbar-brand" href="./index.html">&copy; 2018</a>
         </nav>
       </div>
     );
